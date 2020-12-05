@@ -30,6 +30,7 @@
     <include name="system.xml" />
     <include name="vendor.xml" />
     <include name="remove.xml" />
+    <include name="aosp.xml" />
     <include name="kracken.xml" />
     <include name="gapps.xml" />
 </manifest>
