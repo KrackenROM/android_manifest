@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aosp"
+            fetch="https://android.googlesource.com"
+            review="https://android-review.googlesource.com/"
+            revision="refs/tags/android-11.0.0_r15" />
+
+    <remote name="kracken"
+            fetch="https://github.com/KrackenROM"
+            revision="A11" />
+
+    <remote name="opengapps"
+            fetch="https://github.com/opengapps/" />
+
+    <remote name="opengapps-gitlab"
+            fetch="https://gitlab.opengapps.org/opengapps/" />
+
+    <remote name="caf_system"
+            fetch="https://source.codeaurora.org/quic/la"
+            review="codeaurora.org" />
+
+    <remote name="caf_vendor"
+            fetch="https://source.codeaurora.org/quic/la"
+            review="codeaurora.org"
+            revision="refs/tags/LA.UM.9.12.r1-09300-SMxx50.0" />
+
+    <default revision="refs/tags/LA.QSSI.11.0.r1-08100-qssi.0"
+             remote="caf_system" />
+
+    <include name="system.xml" />
+    <include name="vendor.xml" />
+    <include name="remove.xml" />
+    <include name="kracken.xml" />
+    <include name="gapps.xml" />
+</manifest>

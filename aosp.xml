@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- External -->
+    <project path="external/aac" name="platform/external/aac" remote="aosp" />
+    <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
+    <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
+
+    <!-- Packages -->
+    <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" remote="aosp" />
+
+    <!-- System -->
+    <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
+</manifest>
