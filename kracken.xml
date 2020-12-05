@@ -24,10 +24,13 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="kracken" />
 
   <!-- Device -->
+  <project path="device/kracken/sepolicy" name="android_device_kracken_sepolicy" remote="kracken" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="kracken" >
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
   </project>
-  <project path="device/kracken/sepolicy" name="android_device_kracken_sepolicy" remote="kracken" />
+  <project path="device/qcom/kernelscripts" name="android_device_qcom_kernelscripts" remote="kracken" >
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk" />
+  </project>
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="kracken" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="kracken" />
 
